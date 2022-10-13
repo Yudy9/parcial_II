@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_marginTop="100px"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/nit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nit  91735298-9" />
+
+        <TextView
+            android:id="@+id/Bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TIENDA VIRTUAL ADD" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="12/10/2022" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100px">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/fondo1" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_marginTop="100px">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/produc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/produc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/produc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/produc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/valoruni1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/valoruni2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/valoruni3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/valoruni4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cant1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/cant2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/cant3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/cant4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="50px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/valor_cal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="20px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/valor_cal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="10px"
+                android:layout_marginRight="20px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/valor_cal3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="20px"
+                android:hint="IMC"
+                android:padding="20dp" />
+
+            <TextView
+                android:id="@+id/valor_cal4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginTop="15px"
+                android:layout_marginRight="20px"
+                android:hint="IMC"
+                android:padding="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="194dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Subtotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="50px"
+                android:text="El valor subtotal es" />
+
+            <TextView
+                android:id="@+id/Totl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="50px"
+                android:text="El valor total de la compra con iva es" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50px"
+                android:hint="Subtotal" />
+
+            <TextView
+                android:id="@+id/Total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60px"
+                android:hint="Valor total" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
